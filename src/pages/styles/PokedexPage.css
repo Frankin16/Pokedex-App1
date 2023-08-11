@@ -1,0 +1,56 @@
+.header__container {
+    position: relative;
+}
+
+.header__red {
+    background-color: #ca2727;
+    width: 100vw;
+    height: 90px;
+}
+.header__black {
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+}
+.header__img {
+    width: 350px;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+}
+.poke__text {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.poke__span {
+    color: #ca2727;
+}
+
+.poke__form {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+}
+
+.poke__form-input {
+    box-shadow: 1px 1px 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+}
+
+.poke__form-button {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    background-color: #ca2727;
+    color: white;
+   
+}

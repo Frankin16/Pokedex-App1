@@ -1,0 +1,9 @@
+.select {
+    margin-left: 1em;
+    margin-bottom: 2em;
+    padding: 0.5em 1em;
+    font-size: 1em;
+}
+.select:hover:after {
+    background-color: brown;
+}

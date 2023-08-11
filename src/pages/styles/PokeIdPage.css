@@ -1,0 +1,129 @@
+
+.header__container {
+    position: relative;
+}
+
+.header__red {
+    background-color: #ca2727;
+    width: 100vw;
+    height: 90px;
+}
+.header__black {
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+}
+.header__img {
+    width: 350px;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+}
+
+.poke__image {
+    width: 300px;
+}
+
+.pokecard__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.idCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    box-shadow: 1px 1px 10px;
+}
+.idCard__name {
+    margin-top: 1em;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+.idCard__hr {
+    margin-bottom: 1em;
+}
+
+.idCard__weigth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.idCard__weigth-title {
+    margin-bottom: 0.5em;
+
+}
+
+.idCard__weigth {
+    margin-bottom: 0.5em;
+}
+.container2 {
+    display: flex;
+    gap: 6em;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.type__title {
+    margin-bottom: 0.5em;
+}
+
+.type__ul {
+    display: flex;
+    gap: 2em;
+}
+
+.abilities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.abilities__title {
+    margin-bottom: 0.5em;
+}
+
+.abilities__ul {
+    display: flex;
+    gap: 2em;
+}
+
+.stats__container {
+    margin-bottom: 1em;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+}
+.stats__title {
+    margin-bottom: 0.5em;
+}
+
+.stats__list {
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
